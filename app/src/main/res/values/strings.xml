@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">InnPets-Corfo</string>
+    <!-- MAIN -->
+    <string name="bienvenida">¡Bienvenido!</string>
+    <string name="a">a</string>
+    <string name="texto1">¿Necesitas un lugar apropiado para dejar tu mascota?</string>
+    <string name="texto2">¡Aquí encontrarás personas dispuestas a ayudarte!</string>
+    <string name="texto3">¿Qué esperas?¡Comienza ya!</string>
+    <string name="todo">TODO</string>
+    <string name="btnContinuar">Continuar</string>
+
+    <!-- LOGIN -->
+    <string name="textoLogin1">Iniciar Sesión</string>
+    <string name="textoLogin2">Ingresa tu correo electrónico:</string>
+    <string name="correo">juanitocamina@......</string>
+    <string name="textoLogin3">Ingresa tu contraseña:</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="recuperacionDecontrania"><u>¿Has olvidado tu contraseña?</u></string>
+    <string name="btnIniciarSesion">Iniciar sesión</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="cbRecuerdame">Recuerdame</string>
 </resources>
