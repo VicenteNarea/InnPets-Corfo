@@ -19,4 +19,46 @@
     <string name="btnIniciarSesion">Iniciar sesión</string>
     <string name="btnRegistrarse">Registrarse</string>
     <string name="cbRecuerdame">Recuerdame</string>
+
+    <!-- REGISTRO -->
+    <string name="registroUsuario">Registro de usuario</string>
+    <string name="nombres">Nombres:*</string>
+    <string name="apellidos">Apellidos:*</string>
+    <string name="rut">RUT:*</string>
+    <string name="correoElectronico">Correo Electrónico:*</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="fechaNacimiento">Fecha de nacimiento:*</string>
+    <string name="sexo">Sexo:*</string>
+    <string name="rbMasculino">Masculino</string>
+    <string name="rbFemenino">Femenino</string>
+    <string name="region">Región:*</string>
+    <string name="comuna">Comuna:*</string>
+    <string name="ciudad">Ciudad:*</string>
+    <string name="Contrasenia">Crear una contraseña:*</string>
+    <string name="contrasenia2">Vuelva a ingresar contraseña:*</string>
+    <string name="tyc">Aceptar terminos y condiciones.</string>
+    <string name="notificaciones">Quiero recibir notificaciones a mi correo</string>
+    <string name="btnRegistrar">Registrarse</string>
+    <!-- OPCION REGISTRO-->
+    <string name="textoOpcion1">Para Iniciar</string>
+    <string name="textoOpcion2">¿Quieres ofrecer tu espacio a alguna mascota?</string>
+    <string name="textoOpcion3">¿Buscar donde dejar a tu compañero?</string>
+    <string name="btnHost">Ofrecer espacio</string>
+    <string name="btnMascota">Registrar mascota</string>
+    <!-- REGISTRO MASCOTAS-->
+    <string name="registroMascota">Registro Mascota</string>
+    <string name="nombreMascota">Nombre de la mascota:</string>
+    <string name="tipoMascota">Indica el tipo de mascota:</string>
+    <string name="razaMascota">Indica la raza de la mascota:</string>
+    <string name="tamanioMascota">Indica el tamaño de tu mascota:</string>
+    <string name="descripcionMascota">Una pequeña descripción sobre tu mascota:</string>
+    <string name="fotoMascota">Foto:</string>
+    <string name="comportamiento">Indica como se comporta tu mascota con otros animales:</string>
+    <string name="cuidadoMascota">Indica algun cuidado específico para tu mascota:</string>
+    <string name="rbPequenio">Pequeño</string>
+    <string name="rbMediano">Mediano</string>
+    <string name="rbGrande">Grande</string>
+    <string name="btnRegistrarMascota">Registrar mascota</string>
+
+
 </resources>

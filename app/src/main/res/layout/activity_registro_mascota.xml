@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngwing_com_fghfgh"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"
+    tools:context=".registro">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical"
+                android:text="@string/registroMascota"
+                android:textAlignment="center"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/nombreMascota" />
+
+            <EditText
+                android:id="@+id/etNombreMascota"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/tipoMascota" />
+
+            <EditText
+                android:id="@+id/etTipoMascota"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/razaMascota" />
+
+            <EditText
+                android:id="@+id/etRazaMascota"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/tamanioMascota" />
+
+            <RadioGroup
+                android:id="@+id/rgTamanio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="50px"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <RadioButton
+                    android:id="@+id/rbPequenio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/rbPequenio" />
+
+                <RadioButton
+                    android:id="@+id/rbMediano"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/rbMediano" />
+
+                <RadioButton
+                    android:id="@+id/rbGrande"
+                    android:layout_width="119dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/rbGrande" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/descripcionMascota" />
+
+            <EditText
+                android:id="@+id/etDescripcion"
+                android:layout_width="285dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/tvCuidadoMascota"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/cuidadoMascota" />
+
+            <EditText
+                android:id="@+id/etCuidado"
+                android:layout_width="285dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/tvFoto"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/fotoMascota" />
+
+            <TextView
+                android:id="@+id/tvComportamiento"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/comportamiento" />
+
+            <EditText
+                android:id="@+id/etComportamiento"
+                android:layout_width="285dp"
+                android:layout_height="63dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <Button
+                android:id="@+id/btnRegistrarMascota"
+                android:layout_width="306dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="10dp"
+                android:onClick="goPrincipal"
+                android:text="@string/btnRegistrarMascota"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

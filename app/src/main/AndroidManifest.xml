@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InnPetsCorfo">
         <activity
+            android:name=".registroMascota"
+            android:exported="false" />
+        <activity
+            android:name=".opcionRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".registro"
+            android:exported="false" />
+        <activity
             android:name=".principal"
             android:exported="false" />
         <activity
